@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/a/a",
+    "pages/index/index",
+    "pages/me/me",
+    "pages/tui/tui",
+    "pages/zhishi/zhishi",
+    "pages/fuzhi/fuzhi",
+    "pages/vip/vip",
+    "pages/out/out",
+    "pages/out1/out1",
+    "pages/out2/out2",
+    "pages/out3/out3",
+    "pages/out4/out4",
+    "pages/xiaoxitongzhi/xiaoxitongzhi",
+    "pages/shoucang/shoucang",
+    "pages/show/show",
+    "pages/show1/show1"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#44af95",
+    "navigationBarTitleText": "RW healthy",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/a/a",
+        "text": "主页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home_select.png"
+      },
+      {
+        "pagePath": "pages/tui/tui",
+        "text": "推送",
+        "iconPath": "/images/tuisong.jpg",
+        "selectedIconPath": "/images/tuisong_select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "/images/me.png",
+        "selectedIconPath": "/images/me_select.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap9.json",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button"
+  }
+}

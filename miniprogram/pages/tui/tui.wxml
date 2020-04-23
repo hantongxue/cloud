@@ -1,0 +1,80 @@
+<!--index.wxml-->
+<form reportSubmit bindsubmit="submitFormId">
+  <view class="header">
+    <view class="user" hoverClass="none">
+      <view class="user_box">
+       <view>
+     <view>
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+            <!-- 搜索框 -->
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="请输入搜索内容"/>
+                </view>
+            </view>
+            <!-- 搜索按钮,调用搜索查询方法 -->
+            <view class="weui-search-bar__cancel-btn" bindtap='方法名a'>搜索</view>
+        </view>
+    </view>
+</view>
+      </view>
+    </view>
+  </view>
+
+<view class="tab1" hidden="{{menuTapCurrent!='0'}}">tab1</view>
+<view class="tab2" hidden="{{menuTapCurrent!='1'}}">tab2</view>
+
+<button bindtap="onTapDayWeather">
+<view class="logo">
+          <image src="/images/大可爱.png"></image>
+          <image src="/images/有点可爱.png"></image>
+          <image src="/images/小可爱.png"></image>
+        </view>
+</button>
+
+  <view class="listGroup">
+    <view class="listItem">
+      <image src="/images/减肥杂菜汤.png"></image>
+       <view class="listDong">
+      <text1>减肥杂菜汤</text1>
+      <text2>功效：清肠瘦身xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text2>
+       <view class="weui-search-bar__cancel-btn" bindtap='方法名a'>立即抢购</view>
+      </view>
+     
+      
+    </view>
+
+  </view>
+ 
+  <view class="listGroup">
+
+    <view class="listItem">
+      <image src="/images/豆腐水果羹.png"></image>
+      <view class="listDong">
+      <text1>豆腐水果羹</text1>
+      <text2>功效：减脂轻身xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text2>
+       <view class="weui-search-bar__cancel-btn" bindtap='方法名a'>立即抢购</view>
+      </view>
+     
+    </view>
+
+    
+  </view>
+
+  <view class="listGroup">
+
+    <view class="listItem">
+      <image src="/images/鱼汤.png"></image>
+     <view class="listDong">
+      <text1>鱼汤</text1>
+      <text2>功效：自认肌肤xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</text2>
+       <view class="weui-search-bar__cancel-btn" bindtap='方法名a'>立即抢购</view>
+      </view>
+     
+    </view>
+
+    
+  </view>
+
+</form>

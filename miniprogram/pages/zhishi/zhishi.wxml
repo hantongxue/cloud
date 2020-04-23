@@ -1,0 +1,17 @@
+<!--miniprogram/pages/zhishi/zhishi.wxml-->
+<!--index.wxml-->
+<view class="weui-search-bar">
+   <view class="weui-search-bar__form">
+    <view class="weui-search-bar__box">
+      <icon class="weui-icon-search_in-box" type="search" size="28"></icon>
+      <input type="text" class="weui-search-bar__input" placeholder="二十四节气减肥小知识" value="{{SearchData.value}}" bindinput='SearchInput' bindconfirm="SearchConfirm" />
+      <view class="weui-icon-clear" wx:if="{{SearchData.value.length > 0}}" bindtap="SearchClear">
+        <icon type="clear" size="14"></icon>
+      </view>
+    </view>
+  </view>
+</view>
+ <view class="bg-box">
+    <image class="blackImage" src="/images/back10.jpg"></image>
+  </view>
+

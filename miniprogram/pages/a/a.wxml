@@ -1,0 +1,46 @@
+<form reportSubmit bindsubmit="submitFormId">
+  <view class="index">
+    <!---轮播图-->
+    <swiper autoplay circular indicator-dots>
+      <swiper-item>
+        <navigator url="/pages/out/out" open-type="navigate">
+          <image src="/images/banner1.jpg" mode="widthFix">
+          </image>
+        </navigator>
+      </swiper-item>
+
+      <swiper-item>
+        <navigator url="/pages/out1/out1" open-type="navigate">
+          <image src="/images/banner2.jpg" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+
+      <swiper-item>
+        <navigator url="/pages/out2/out2" open-type="navigate">
+          <image src="/images/banner3.jpg" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+
+      <swiper-item>
+        <navigator url="/pages/out3/out3" open-type="navigate">
+          <image src="/images/banner4.jpg" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+
+      <swiper-item>
+        <navigator url="/pages/out4/out4" open-type="navigate">
+          <image src="/images/banner5.jpg" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+
+    <!---产品列表-->
+    <view class="img_1">
+      <navigator url="/pages/zhishi/zhishi" open-type="navigate">
+        <image src="/images/view_2.png" mode="widthFix">
+        </image>
+      </navigator>
+    </view>
+
+  </view>
+</form>

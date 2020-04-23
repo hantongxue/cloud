@@ -1,0 +1,4 @@
+<!--miniprogram/pages/shoucang/shoucang.wxml-->
+<view>
+  <image src="/images/收藏.png" ></image>
+</view>

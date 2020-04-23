@@ -1,0 +1,8 @@
+<!--miniprogram/pages/show/show.wxml-->
+<view>
+  <view wx:for="{{product}}" wx:key="_id">
+  名字：<label>{{item.name}}</label>
+  体重：<label>{{item.weight}}</label>
+  日期：<label>{{item.dec}}</label>
+  </view>
+</view>

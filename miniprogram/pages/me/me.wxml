@@ -1,0 +1,77 @@
+<form reportSubmit bindsubmit="submitFormId">
+  <view class="header">
+    <view class="user" hoverClass="none">
+      <view class="user_box">
+        <view catchtap="previewImage" class="logo">
+          <image src="/images/u6.png"></image>
+          <view class="cu-tag badge {{male==1?'icon-male bg-blue':'icon-female bg-pink'}}"></view>
+        </view>
+        <block wx:if="{{vip}}">
+          <view class="user_info">
+            <view class="user_name">
+            </view>
+          </view>
+        </block>
+        <block wx:else>
+          <view class="user_info">
+            <view class="user_name">
+              <text>春风十里不如你</text>
+            </view>
+            <view class="vip_expires" bindtap='joinVip'>会员时间：2020-03-25
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <!-- 功能列表 -->
+  <view class="container">
+    <!--第1列表组--->
+    <view class="listItem">
+      <image src="/images/u16.png"></image>
+      <text>体重记录</text>
+      <navigator url="/pages/index/index" open-type="navigate">
+        <image src="/images/u20.png"></image>
+      </navigator>
+    </view>
+
+    <view class="listItem">
+      <image src="/images/u11.png"></image>
+      <text>消息通知</text>
+      <navigator url="/pages/xiaoxitongzhi/xiaoxitongzhi" open-type="navigate">
+        <image src="/images/u20.png"></image>
+      </navigator>
+    </view>
+
+    <view class="listItem">
+      <image src="/images/u17.png"></image>
+      <text>收藏</text>
+      <navigator url="/pages/shoucang/shoucang" open-type="navigate">
+        <image src="/images/u20.png"></image>
+      </navigator>
+    </view>
+
+    <view class="listItem">
+      <image src="/images/u19.png"></image>
+      <text>会员中心</text>
+      <navigator url="/pages/vip/vip" open-type="navigate">
+        <image src="/images/u20.png"></image>
+      </navigator>
+    </view>
+
+    <view class="a">
+    <button class="btn_2" bindtap="popTest">
+      <view class="listItem">
+        <image src="/images/u13.png"></image>
+        <view><text>关于和帮助</text></view>
+      </view>
+    </button>
+    </view>
+
+
+
+
+
+
+  </view>
+</form>

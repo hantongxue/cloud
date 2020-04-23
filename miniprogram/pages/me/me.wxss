@@ -1,0 +1,113 @@
+/**index.wxss**/
+page {
+  padding-bottom: 50rpx;
+  background:white;
+}
+
+.header {
+  padding: 0 25rpx;
+  padding-top: 40rpx;
+  padding-bottom: 50rpx;
+  width: 100%;
+  background: #44AF95;
+  position:relative;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .gif-wave{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  mix-blend-mode: screen;  
+  height: 100rpx;   
+}
+.user_box {
+  display: flex;
+  align-items: center;
+}
+
+.edit {
+  display: flex;
+  width: 70rpx;
+  height: 70rpx;
+  padding: 18rpx;
+  box-sizing: border-box;
+}
+
+.edit image {
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+}
+
+.logo {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  background: #fff;
+  will-change: transform;
+  position:relative;
+}
+
+
+.logo image {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  will-change: transform;
+}
+
+.user_info {
+  padding-left: 32rpx;
+}
+
+.user_name {
+  display: flex;
+  align-items: center;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #fff;
+}
+
+.vip_expires {
+  margin-top: 12rpx;
+  font-size: 27rpx;
+  color: #fff;
+}
+
+
+
+/*列表单行样式*/
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.listItem{
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  align-items: center;
+  border: 1rpx solid silver;
+  padding: 30rpx;
+}
+
+
+/*图标尺寸*/
+image{
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 15rpx;
+}
+/*文本*/
+text{
+  font-size: 40rpx;
+  flex-grow: 1;
+}

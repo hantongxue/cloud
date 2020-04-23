@@ -1,0 +1,34 @@
+<!--miniprogram/pages/xiaoxitongzhi/xiaoxitongzhi.wxml-->
+<view class='shopDetail-box'>
+  <view class="tab-left" >
+    <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="1" data-id="1" bindtap="tab">系统通知</view>
+    <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="2" data-id="2" bindtap="tab">回复我的</view>
+
+  </view>
+ 
+<!--第一组列表-->
+<view class="listGroup" wx:for="{{list}}" wx:key="group{{index}}" wx:for-item="group">
+<view class="listItem" wx:for="{{group}}" wx:key="row{{index}}" wx:for-item="row">
+<image src="{{row.icon}}"></image>
+<text>{{row.text}}</text>
+<image src="/images/arrow.png"></image>
+</view>
+</view>
+
+  <view class="tab-right">
+    <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+<view class="bg-box">
+    <image class="blackImage" src="/images/uxx.png"></image>
+  </view>
+    </view>
+
+    
+    <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+    <view class="bg-box">
+    <image class="blackImage" src="/images/u120.png"></image>
+  </view>
+  当前没有回复记录
+    </view>
+  </view>
+</view>
+

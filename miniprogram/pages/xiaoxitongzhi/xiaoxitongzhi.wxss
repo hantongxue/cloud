@@ -1,0 +1,80 @@
+/* miniprogram/pages/xiaoxitongzhi/xiaoxitongzhi.wxss */
+/**index.wxss**/
+.shopDetail-box{
+  height:100%;
+  width: 100%;
+  background-color: #f3f3f2;
+  display: flex;
+  flex-direction: column;
+}
+
+.fs16{
+  font-size: 16px;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs12{
+  font-size: 12px;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.shopDetail-box{
+  padding-top: 550px;
+}
+.tab-left .active {
+  color: #181716;
+  border-bottom: 2px solid #44af95;
+}
+ 
+.tab-left {
+  background: #fff;
+  position: fixed;
+  z-index: 22;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #d5d5d5;
+}
+ 
+.tab-left view {
+  width: 30%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.tab-right .right-item {
+  display: none;
+  height:100%;
+  width: 100%;
+  /* border: solid 1px; */
+}
+ 
+.tab-right .right-item.active {
+  display: block;
+}
+ 
+.shopDetail-bottom{
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  color: #fff;
+}
+
+.blackImage{
+
+ position: absolute;
+top: 70px;
+bottom: 0px;
+  width: 100%;
+  height: 70%;
+  z-index: 11;
+}

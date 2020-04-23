@@ -1,0 +1,4 @@
+/* miniprogram/pages/show/show.wxss */
+view{
+  margin-bottom: 20rpx;
+}
